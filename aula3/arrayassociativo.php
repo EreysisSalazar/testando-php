@@ -1,10 +1,11 @@
+
 <?php
-echo "h1array asociativo</h1>";
-$idade = array("adriana"=>18, "Danda"=>17,"Veri"=>23, "Cris"=>25);
-
+echo "<h1Array Associativo</h1>";
+$idade = array("Adriana"=>18,"Danda"=>17,"Veri"=>23,"cris"=>25);
+echo $idade['Adriana']."<br>";
+echo $idade['Danda'];
 echo "<hr>";
-foreach ($idade as $x => $x_value) {
-   echo "key = ".$x. ",value" .$x_value;
-   echo "<br>";
-
+foreach ($idade as $x =>$x_value){
+    echo "Key = ".$x.",value=" .$x_value;
+    echo "<br>";
 }
